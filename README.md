@@ -1,12 +1,12 @@
 # Project 1: System Analysis & Design- Chris Lynch Fencing
 
-Challenge: Design a system analysis application
+Challenge: Evaluate and improve outdated business processes for a family-owned fencing company operating across multiple Hawaiian Islands, where manual tracking of inventory and job estimates led to inefficiencies.
 
-Context: For the system analysis project, I created a web-based application that allowed users to track the progress of a system analysis project. The goal was to allow users to input and manage information related to the system’s requirements, analysis, design, and testing phases. I used a SQL Server database to store this information.
+Context: The company was using spreadsheets and handwritten calculations to manage core operations, which often caused delays, inaccuracies, and limited scalability. A more efficient, modern solution was needed to support their growth and improve daily workflows.
 
-Action: I created models for tracking project phases, stakeholder details, project requirements, and analysis documents. The main focus was on linking requirements to their respective project phases and making sure the system could handle adding, editing, and deleting project elements. In the DbContext, I set up relationships between the models so that project requirements could be linked to the relevant phases and stakeholders.
+Action: Using system analysis and design practices, I assessed the company's operational needs by interviewing staff, documenting current workflows, and identifying pain points. I researched software alternatives and evaluated them based on features, cost, and compatibility with the company’s goals. I ultimately recommended a cloud-based platform, FieldBin, to streamline inventory management and job estimating.
 
-Results: The hardest part was organizing the database relationships. Once I figured out how to link phases and requirements, everything worked smoothly.
+Results: The proposed solution addressed key inefficiencies by replacing manual methods with automated, centralized tools. The recommendation improved accuracy, reduced administrative burden, and laid the groundwork for scalable operations across all service locations.
 
-Reflection: I gained valuable experience in database design and system analysis. It was fulfilling to see how the application could dynamically adjust as the project progressed, and it helped me understand the importance of good database architecture.
+Reflection: This project gave me hands-on experience in system analysis—understanding user needs, evaluating technical solutions, and aligning technology with business goals. It reinforced the value of thoughtful system design in solving real-world problems.
 
